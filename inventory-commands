@@ -1,0 +1,3 @@
+List all hosts from inventory
+
+ansible all --list-hosts -i inventory.ini
