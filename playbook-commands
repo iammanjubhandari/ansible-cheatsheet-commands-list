@@ -3,3 +3,6 @@ Run a playbook
 ansible-playbook playbook.yml -i inventory.ini
 
 
+Initialize a new role
+
+ansible-galaxy init role_name
