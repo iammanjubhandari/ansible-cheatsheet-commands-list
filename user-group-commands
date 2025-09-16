@@ -1,0 +1,3 @@
+Create user
+
+ansible all -b -m user -a "name=username" -i inventory.ini
