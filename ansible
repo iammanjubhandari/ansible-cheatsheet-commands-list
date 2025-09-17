@@ -2,3 +2,7 @@ Ansible version:
 
 ansible --version
 
+list all the available modules:
+
+ansible-doc -l
+
