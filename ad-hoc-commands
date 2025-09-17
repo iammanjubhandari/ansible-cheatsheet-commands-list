@@ -1,0 +1,3 @@
+Check connection (Ping)
+
+ansible all -m ping -i inventory.ini
