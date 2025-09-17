@@ -1,3 +1,8 @@
 List all hosts from inventory
 
 ansible all --list-hosts -i inventory.ini
+
+
+Get updated dynamic inventory
+
+ansible-inventory --refresh -i inventory.ini
