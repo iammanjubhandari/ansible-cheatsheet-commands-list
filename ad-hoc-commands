@@ -17,3 +17,6 @@ ansible all -m shell -a "df -h" -i inventory.ini
 
 3. Get memory info:
 ansible all -m command -a "free -m" -i inventory.ini
+
+4. Reboot hosts:
+ansible group_name -a "/sbin/reboot" -i inventory.ini
