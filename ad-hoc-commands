@@ -5,3 +5,9 @@ ansible all -m ping -i inventory.ini
 
 # Gather facts
 ansible all -m setup -i inventory.ini`
+
+
+Run shell command :
+
+1.Uptime
+ansible all -m shell -a "uptime" -i inventory.ini
