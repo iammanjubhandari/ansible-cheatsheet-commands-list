@@ -3,6 +3,11 @@ List all hosts from inventory
 ansible all --list-hosts -i inventory.ini
 
 
-Get updated dynamic inventory
+Get updated dynamic inventory/Refresh
 
 ansible-inventory --refresh -i inventory.ini
+
+
+Graphical view of inventory:
+
+ansible-inventory --graph -i inventory.ini
